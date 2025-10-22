@@ -11,7 +11,7 @@ inputs:
   seat-id: 2
     description: 'Seat Id of Target Ticket'
     required: true
-  slack-incoming-webhook-url: https://api.telegram.org/bot<8449582575:AAERJ8_VjnoTW53yAHKfoxpZVoSn5_zKAvM>/sendMessage?chat_id=<7990786712>&text=메시지
+  slack-incoming-webhook-url: ${{ secrets.SLACK_WEBHOOK_URL }}
     description: 'URL of Slack Incoming Webhook'
     required: true
   message:
